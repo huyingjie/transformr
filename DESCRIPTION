@@ -1,0 +1,21 @@
+Package: transformr
+Type: Package
+Title: Transform Data for Future Analysis
+Version: 0.0.0.9000
+Author: Yingjie Hu
+Maintainer: Yingjie Hu <yingjiehu.mail@gmail.com>
+Authors@R: person("Yingjie", "Hu", email = "yingjiehu.mail@gmail.com",
+                  role = c("aut", "cre"))
+Description: Sometimes transformation is required in the process of data preparation or data cleanining stage.
+    This package includes many methods to transform data. 
+License: GPL-2 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: https://yingjiehu.com
+BugReports: https://github.com/huyingjie/transformr/issues
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
+Roxygen: list(markdown = TRUE)
+Suggests: knitr,
+    rmarkdown,
+    testthat
